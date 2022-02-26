@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            place-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: rgb(248, 242, 246);
+        }
+        .form{
+            max-width: 400px;
+        background-color: white;
+        box-shadow: 20px 20px 40px rgb(255, 211,240)       ;
+position: relative;
+padding: 2em;
+border-radius: 1em;    
+    }
+    h1{
+        margin: 3em 0.5em;
+    }
+    h2{
+        font-size: 3em;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 8em;
+    }
+    a{
+            display: block;
+            background-color: rgb(182, 21, 128);
+            color: white;
+            padding: 0.8em;
+            text-align: center;
+        text-decoration: none;
+        }
+    input{
+        width: 100%;
+        padding: 0.8em;
+        border: 1px solid gray;
+        margin-bottom: 1em;
+    }
+    .lottie{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        pointer-events: none;
+    }
+    p{
+        font-size: 0.9em;
+        margin: 1em 0.2em;
+    padding: 1em;
+    background: rgb(245, 243, 235);
+    }
+    </style>
+</head>
+<body>
+    <div class="form">  
+          <div>
+    <lottie-player class="lottie"  src="./lf20_5zh17nif.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay loop></lottie-player>     
+</div>
+<h1 class="seq">wish to subcribe?</h1>
+<label for="email" class="seq">Email address</label>
+<input type="text" id="email" class="seq">
+<p class="seq">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, asperiores!</p>
+
+<a href="" class="cta seq">Join list</a>
+</div>
+<h2>success?</h2>
+
+</body>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>
